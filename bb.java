@@ -6,7 +6,7 @@ import java.net.Socket;
 public class VideoReceiverServer {
     public static void main(String[] args) {
         int port = 8080; // 监听端口
-        String savePath = "D:\aa/video.mp4"; // 保存视频文件的路径
+        String savePath = "D:/aa/video.mp4"; // 保存视频文件的路径
 
         try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Server is listening on port " + port);
